@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pages/portfolio/[projectID].js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1670487502736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670489610049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,9 @@\n+import {useRouter} from 'next/router'\r\n+\r\n function PorfolioProjectPage(){\r\n+    const router = useRouter();\r\n+    console.log(router.pathname);\r\n     return(\r\n         <div>\r\n             <h1>Portfolio Project Page</h1>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1670489691523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,13 @@\n import {useRouter} from 'next/router'\r\n \r\n function PorfolioProjectPage(){\r\n     const router = useRouter();\r\n+\r\n     console.log(router.pathname);\r\n+    console.log(router.query);\r\n+\r\n+\r\n     return(\r\n         <div>\r\n             <h1>Portfolio Project Page</h1>\r\n         </div>\r\n"
+                }
+            ],
+            "date": 1670487502736,
+            "name": "Commit-0",
+            "content": "function PorfolioProjectPage(){\r\n    return(\r\n        <div>\r\n            <h1>Portfolio Project Page</h1>\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default PorfolioProjectPage;"
+        }
+    ]
+}

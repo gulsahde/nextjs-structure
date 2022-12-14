@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pages/clients/[id]/[clientprojectID].js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1670493726736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670493808520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n function SelectedClientProjectPage(){\r\n     return(\r\n         <div>\r\n-            <h1>The Projects of a Given Client.</h1>\r\n+            <h1>The Project Page for a Specific Project for a Selected Client.</h1>\r\n         </div>\r\n     )\r\n   }\r\n   \r\n"
+                },
+                {
+                    "date": 1670494884262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,11 @@\n+import {useRouter} from 'next/router';\r\n+\r\n function SelectedClientProjectPage(){\r\n+\r\n+    const router=useRouter();\r\n+    console.log(router.query);\r\n+    \r\n     return(\r\n         <div>\r\n             <h1>The Project Page for a Specific Project for a Selected Client.</h1>\r\n         </div>\r\n"
+                }
+            ],
+            "date": 1670493726736,
+            "name": "Commit-0",
+            "content": "function SelectedClientProjectPage(){\r\n    return(\r\n        <div>\r\n            <h1>The Projects of a Given Client.</h1>\r\n        </div>\r\n    )\r\n  }\r\n  \r\n  export default SelectedClientProjectPage;"
+        }
+    ]
+}

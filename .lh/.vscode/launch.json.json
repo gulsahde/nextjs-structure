@@ -1,0 +1,22 @@
+{
+    "sourceFile": ".vscode/launch.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1670425190284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670484848792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,13 +4,14 @@\n     // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387\r\n     \"version\": \"0.2.0\",\r\n     \"configurations\": [\r\n         \r\n+\r\n         {\r\n             \"type\": \"chrome\",\r\n             \"request\": \"launch\",\r\n             \"name\": \"Chrome'u localhost'ta başlat\",\r\n-            \"url\": \"http://localhost:8080\",\r\n+            \"url\": \"http://localhost:3000\",//\"http://localhost:8080\",\r\n             \"webRoot\": \"${workspaceFolder}\"\r\n         }\r\n     ]\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670425190284,
+            "name": "Commit-0",
+            "content": "{\r\n    // Olası öznitelikler hakkında bilgi edinmek için IntelliSense kullanın.\r\n    // Mevcut özniteliklerin açıklamalarını görüntülemek için üzerine gelin.\r\n    // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387\r\n    \"version\": \"0.2.0\",\r\n    \"configurations\": [\r\n        \r\n        {\r\n            \"type\": \"chrome\",\r\n            \"request\": \"launch\",\r\n            \"name\": \"Chrome'u localhost'ta başlat\",\r\n            \"url\": \"http://localhost:8080\",\r\n            \"webRoot\": \"${workspaceFolder}\"\r\n        }\r\n    ]\r\n}"
+        }
+    ]
+}

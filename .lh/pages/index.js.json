@@ -1,0 +1,62 @@
+{
+    "sourceFile": "pages/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1670484091199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670507490441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n function HomePage(){\n   return(\n       <div>\n           <h1>The Home Page!</h1>\n+\n+          <ul>\n+            <li><a href=\"/portfolio\"></a></li>\n+          </ul>\n       </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1670507507135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n       <div>\n           <h1>The Home Page!</h1>\n \n           <ul>\n-            <li><a href=\"/portfolio\"></a></li>\n+            <li><a href=\"/portfolio\">Portfolio</a></li>\n           </ul>\n       </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1670507914028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+import Link from 'next/link';\n+\n function HomePage(){\n   return(\n       <div>\n           <h1>The Home Page!</h1>\n"
+                },
+                {
+                    "date": 1670508003196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n       <div>\n           <h1>The Home Page!</h1>\n \n           <ul>\n-            <li><a href=\"/portfolio\">Portfolio</a></li>\n+            <li>\n+              <Link href=\"/portfolio\">Portfolio</Link>\n+            </li>\n           </ul>\n       </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1670508075578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n           <h1>The Home Page!</h1>\n \n           <ul>\n             <li>\n-              <Link href=\"/portfolio\">Portfolio</Link>\n+              {/* <Link href=\"/portfolio\">Portfolio</Link> */}\n+              <a href=\"/portfolio\">Portfolio</a>\n             </li>\n           </ul>\n       </div>\n   )\n"
+                },
+                {
+                    "date": 1670508131195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,9 @@\n           <h1>The Home Page!</h1>\n \n           <ul>\n             <li>\n-              {/* <Link href=\"/portfolio\">Portfolio</Link> */}\n-              <a href=\"/portfolio\">Portfolio</a>\n+              <Link href=\"/portfolio\">Portfolio</Link>\n             </li>\n           </ul>\n       </div>\n   )\n"
+                },
+                {
+                    "date": 1670508148508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n           <h1>The Home Page!</h1>\n \n           <ul>\n             <li>\n-              <Link href=\"/portfolio\">Portfolio</Link>\n+              {/* <Link href=\"/portfolio\">Portfolio</Link> */}\n+              <a href=\"/portfolio\">Portfolio</a>\n             </li>\n           </ul>\n       </div>\n   )\n"
+                },
+                {
+                    "date": 1670508160660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,9 @@\n           <h1>The Home Page!</h1>\n \n           <ul>\n             <li>\n-              {/* <Link href=\"/portfolio\">Portfolio</Link> */}\n-              <a href=\"/portfolio\">Portfolio</a>\n+              <Link href=\"/portfolio\">Portfolio</Link>\n             </li>\n           </ul>\n       </div>\n   )\n"
+                },
+                {
+                    "date": 1670508767967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n           <h1>The Home Page!</h1>\n \n           <ul>\n             <li>\n-              <Link href=\"/portfolio\">Portfolio</Link>\n+              <Link replace href=\"/portfolio\">Portfolio</Link>\n             </li>\n           </ul>\n       </div>\n   )\n"
+                },
+                {
+                    "date": 1670509282357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n           <h1>The Home Page!</h1>\n \n           <ul>\n             <li>\n-              <Link replace href=\"/portfolio\">Portfolio</Link>\n+              <Link href=\"/portfolio\">Portfolio</Link>\n             </li>\n           </ul>\n       </div>\n   )\n"
+                },
+                {
+                    "date": 1670509311945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,11 @@\n           <ul>\n             <li>\n               <Link href=\"/portfolio\">Portfolio</Link>\n             </li>\n+            <li>\n+              <Link href=\"/clients\">Clients</Link>\n+            </li>\n           </ul>\n       </div>\n   )\n }\n"
+                }
+            ],
+            "date": 1670484091199,
+            "name": "Commit-0",
+            "content": "function HomePage(){\n  return(\n      <div>\n          <h1>The Home Page!</h1>\n      </div>\n  )\n}\n\nexport default HomePage;"
+        }
+    ]
+}
